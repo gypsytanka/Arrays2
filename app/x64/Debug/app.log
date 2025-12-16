@@ -1,0 +1,27 @@
+﻿  arrays.c
+  main.c
+C:\Users\ПК\source\repos\arrc\arrays.c(22,9): warning C4013: printf: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\ПК\source\repos\app\main.c(20,5): warning C4013: task11: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\ПК\source\repos\app\main.c(22,5): warning C4013: task14: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\ПК\source\repos\app\main.c(24,5): warning C4013: task16: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\ПК\source\repos\app\main.c(19,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(52,21): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\ПК\source\repos\app\main.c(70,83): warning C4013: func: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\ПК\source\repos\app\main.c(74,11): error C2369: A: переопределение; различные индексы
+      C:\Users\ПК\source\repos\app\main.c(33,11):
+       см. объявление "A"
+  
+C:\Users\ПК\source\repos\app\main.c(83,11): error C2086: float sr: переопределение
+      C:\Users\ПК\source\repos\app\main.c(35,11):
+       см. объявление "sr"
+  
+C:\Users\ПК\source\repos\app\main.c(87,16): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\ПК\source\repos\app\main.c(41,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(76,17): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\ПК\source\repos\app\main.c(124,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(126,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(128,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(130,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\ПК\source\repos\app\main.c(153,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\ПК\source\repos\app\main.c(182,5): warning C4013: full_random: нет определения; предполагается "extern" с возвратом типа "int"
+  Создание кода...
