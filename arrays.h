@@ -5,7 +5,7 @@
  * Определение кол-ва элементов меньше среднего 
  * @param A указатель на массив
  * @param sr среднее значение 
- * @return указатель на заполненный массив
+ * @return число элементов меньше sr
  */
 int func(float* A, float sr) 
 
@@ -104,5 +104,6 @@ void delete_two_max(double* ptr_arr, int* size);
 void insert_before_max(double* ptr_arr, int* size);
 
 #endif
+
 
 
