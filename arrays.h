@@ -7,7 +7,7 @@
  * @param sr среднее значение 
  * @return число элементов меньше sr
  */
-int func(float* A, float sr) 
+int func(float* A, float sr);
 
 double calc(double x);  // функция для получения значений как в работе 8
 
@@ -104,6 +104,7 @@ void delete_two_max(double* ptr_arr, int* size);
 void insert_before_max(double* ptr_arr, int* size);
 
 #endif
+
 
 
 
