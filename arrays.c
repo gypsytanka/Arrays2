@@ -2,6 +2,16 @@
 #include <math.h>
 #include <time.h>
 
+int func(float* A, float sr) {
+    int count = 0;
+    for (int i = 0; i < N; i++) {  
+        if (A[i] < sr) {
+            count++;
+        }
+    }
+    return count;
+}
+
 double calc(double x) {
     return fabs(log10(x)) - pow(x - 2, 2);
 }
@@ -32,7 +42,7 @@ double* calc_elements(double* ptr_array, int n) {
     }
     double sr = sum / n;
 
-    printf("Ñðåäíåå àðèôìåòè÷åñêîå: %.4f\n", sr);
+    printf("Ã‘Ã°Ã¥Ã¤Ã­Ã¥Ã¥ Ã Ã°Ã¨Ã´Ã¬Ã¥Ã²Ã¨Ã·Ã¥Ã±ÃªÃ®Ã¥: %.4f\n", sr);
 
     int count = 0;
     for (int i = 0; i < n; i++) {
@@ -41,7 +51,7 @@ double* calc_elements(double* ptr_array, int n) {
         }
     }
 
-    printf("Êîëè÷åñòâî ýëåìåíòîâ ìåíüøå ñðåäíåãî: %d\n\n", count);
+    printf("ÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã®Ã¢ Ã¬Ã¥Ã­Ã¼Ã¸Ã¥ Ã±Ã°Ã¥Ã¤Ã­Ã¥Ã£Ã®: %d\n\n", count);
     return ptr_array;
 }
 
@@ -119,4 +129,5 @@ void delete_two_max(double* ptr_arr, int* size) {
 void insert_before_max(double* ptr_arr, int* size) {
     int max_index = find_max_index(ptr_arr, *size);
     *size = insert_before(ptr_arr, *size, max_index, -999.0);
+
 }
